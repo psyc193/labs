@@ -11,6 +11,7 @@ from torch.autograd import Variable
 from PIL import Image
 
 ## feature dimensions by layer_ind
+## input: 3 x 224 x 224
 ## 0: [64, 112, 112] = 802,816
 ## 1: [128, 56, 56] = 401,408
 ## 2: [256, 28, 28] = 200,704
